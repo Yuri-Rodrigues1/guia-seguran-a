@@ -1,0 +1,68 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif
+}
+body{
+  background-color: antiquewhite;
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#121212, #212b46);
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+.subtitulo{
+  background: linear-gradient(#121212, #212b46);
+  height: 80vh;
+}
+
+h1{
+  text-align: center;
+  margin-top: 2em;
+  font-size: 7em;
+  margin-bottom: 2em;
+}
+h4{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.topicos{
+  margin-left: 4em;
+  margin-bottom: 5em;
+}
+.main{
+  
+
+}
+h3{
+  padding-top: 3em;
+  font-size: 4.5em;
+  color: white;
+  text-align: center;
+}
+p{
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 2em;
+  padding: 2em;
+  font-size: 1.3em;
+}
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+  gap: 1em; /* Espaço entre os itens na mesma linha */
+  list-style-position: inside; /* Coloca os marcadores (números ou bullets) à esquerda do texto */
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 1em; /* Espaço entre as linhas */
+  flex: 0 0 calc(50% - 0.5em); /* Define a largura dos itens para ocupar metade da largura da linha */
+}
