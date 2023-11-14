@@ -6,6 +6,8 @@
 }
 body{
   background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
 } 
 .navbar {
     display: flex;
@@ -17,14 +19,47 @@ body{
     font-size: 1.3em;
   }
 
-.subtitulo{
-  background: linear-gradient(#121212, #212b46);
+.subtitulo1{
+  background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaG5vbG9neSUyMHdvcmxkfGVufDB8fDB8fHww);
   height: 80vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subtitulo2{
+  background-image: url(https://imgs.search.brave.com/5p_sreZuWByMG4JpnjK_kAV5fl2vrxNCLfxx8jf92qM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMzE2/ODY3LmpwZw);
+  height: 80vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subtitulo3{
+  background-image: url(https://imgs.search.brave.com/1_ICysIsmMTFhOYenQH-Zx1DeDiAf1YgmWh4Lul3G1U/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC85L2MvNi83/NjAxNzAtc2VjdXJp/dHktd2FsbHBhcGVy/cy0zODQweDIxNjAt/bW9iaWxlLmpwZw);
+  height: 80vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subtitulo4{
+  background-image: url(https://imgs.search.brave.com/tuMrplV_qcBNlI9SGv52jWf1yqdUoveXzLnxtrHjeGg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9h/YnN0cmFjdC1kaWdp/dGFsLWdyaWQtYmxh/Y2stYmFja2dyb3Vu/ZF81Mzg3Ni05NzY0/Ny5qcGc_c2l6ZT02/MjYmZXh0PWpwZw);
+  height: 80vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subtitulo5{
+  background-image: url(https://imgs.search.brave.com/HyXD9zqvzRrDVy2N0hO7P3dSsPohd3twf8aLKfgQhlE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjM5NjExMzE5OTAt/NWVhN2M2MWIyMTA3/P2F1dG89Zm9ybWF0/JmZpdD1jcm9wJnE9/ODAmdz0xMDAwJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TWpCOGZI/TmxZM1Z5YVhSNWZH/VnVmREI4ZkRCOGZI/d3c);
+  height: 80vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1{
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
   font-size: 7em;
   margin-bottom: 2em;
 }
@@ -35,18 +70,22 @@ h4{
 .topicos{
   margin-left: 4em;
   margin-bottom: 5em;
+  border: 1px solid black;
+  width: 20%;
+  padding: 1.5em;
 }
 .main{
   
 
 }
 h3{
-  padding-top: 3em;
+  padding-top: 2.5em;
   font-size: 4.5em;
   color: white;
   text-align: center;
+  margin: 0;
 }
-p{
+.main p{
   margin-left: 8em;
   margin-right: 8em;
   margin-top: 2em;
@@ -58,11 +97,42 @@ ol {
   flex-wrap: wrap;
   padding: 2em;
   gap: 1em; /* Espaço entre os itens na mesma linha */
-  list-style-position: inside; /* Coloca os marcadores (números ou bullets) à esquerda do texto */
+  list-style-position: inside;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 li {
   font-size: 1.2em;
   margin-bottom: 1em; /* Espaço entre as linhas */
   flex: 0 0 calc(50% - 0.5em); /* Define a largura dos itens para ocupar metade da largura da linha */
+}
+
+.rodape{
+  background: linear-gradient(#121212, #212b46);
+  color: white;
+  height: 4em;
+  padding-left: 3em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.rodape h5{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+a{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1134px) and (min-height: 621px) {
+  h1 {
+    font-size: 8em;
+    margin-bottom: 3em; 
+  }
+  h3 {
+    font-size: 5.5em;
+  }
+  .subtitulo{
+    height: 85vh;
+  }
 }
